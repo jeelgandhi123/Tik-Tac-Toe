@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #B7CECE;
+    text-align: center;
+}
+
+/* winner portion css starts from here  */
+.message-container {
+    height: 120vmin;
+}
+.msg {
+    font-size: 7vmin;
+    margin-top: 275px;
+}
+.hide {
+    display: none;
+}
+#new {
+    padding: 0.45rem;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    background-color: #BBBAC6;
+    color: black;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
+
+/* that game portion start from here  */
+.heading{
+    margin-top: 55px;
+    margin-bottom: 25px;
+    font-size: 45px;
+    text-decoration: underline;
+}
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 18px;
+    color: #E2E2E2;
+    border-radius: 0.8px solid black;
+    border: none;
+    background-color: #1C0F13;
+    box-shadow: 0 0 1rem(0, 0, 0, 0.3);
+    font-size: 8vmin;
+}
+
+#reset {
+    padding: 0.45rem;
+    font-size: 1.25rem;
+    margin-top: 7px;
+    margin-bottom: 29px;
+    background-color: #BBBAC6;
+    color: black;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+}
